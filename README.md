@@ -37,7 +37,7 @@ if not does_user_exist("123456789") then:
 #### `enroll_user(user_ID: str, course_id: str, role: str = "Student") -> None`
 [description]
 
-$\color{ProcessBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
+$\color{ProcessBlue}{Test}$
 
 ## FVTC Specific
 

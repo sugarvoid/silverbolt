@@ -23,8 +23,8 @@ if __name__ == "__main__":
     #for s in numbers_list: 
       #  enroll_user(user_ID=s, course_id="aviation_workshop")
 
-    create_empty_course(course_id="31410354-2-2024fall", course_name="Exterior Finish Project (Section 2)")
-    create_empty_course(course_id="31410356-2-2024fall", course_name="Interior Closure Project (Section 2)")
+    #create_empty_course(course_id="10070103-2-2024fall", course_name="Service Maintenance & Principles(Section 2)")
+    #create_empty_course(course_id="31410356-2-2024fall", course_name="Interior Closure Project (Section 2)")
     pass
     #Logger.info("hey there")
     #copy_courses()
