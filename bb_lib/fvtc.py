@@ -28,3 +28,17 @@ def add_users_to_start_college_now(list_file_path: str) -> None:
     """
     pass
 
+def add_rest_to_course_copy_csv(csv_path: str) -> None:
+    """Add the '(Section X)' and -2024[semester] to the course copy csv file.  
+
+    Args:
+        csv_path (str): The file needing updating. 
+    """
+
+    #load file
+    #loop though
+        # update title based on section number in course ID
+        # update course ID 
+    # save file
+
+    pass

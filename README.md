@@ -1,5 +1,6 @@
 # Silverbolt 
 
+**This project is a work in progress. Get an understanding of the code and what it does before using**
 A python wrapper of the blackboard api to simplify admin tasks such as managing courses and users.  
 
 
