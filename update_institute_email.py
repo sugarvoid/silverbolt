@@ -15,7 +15,7 @@ from bb_lib.auth import get_access_token
 from bb_lib.logger import Logger
 
 
-LIST_FILE = "data/full_list_users.csv"
+LIST_FILE = "data/full_list_users_part.csv"
 
 def update_institution_email(user_id: str) -> None:
     if len(user_id) == 9 and user_id.isnumeric():
