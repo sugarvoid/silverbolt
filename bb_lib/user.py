@@ -159,6 +159,8 @@ def does_user_exist(username: str) -> bool:
     """
     get_user = f"{ORG_DOMAIN}/learn/api/public/v1/users/userName:{username}"
     response = get(get_user, headers={'Authorization': 'Bearer ' + get_access_token()})
+
+
     #print(response.text)
     if response.status_code == 200:
         return True

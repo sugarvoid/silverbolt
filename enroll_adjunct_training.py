@@ -118,10 +118,10 @@ class Adjunct:
 
 
 def parse_date(date_s: str) -> str:
+    
     c_date = date_s.split(" ")
-    # print(c_date)
-    if len(c_date) > 1:
-        return date_s.split(" ")[1]
+    if len(date_s) > 1:
+        return date_s
     elif date_s == "Waived":
         return "Waived"
     else:
@@ -188,7 +188,7 @@ def add_adjuncts_to_csv(a_list: list) -> None:
         # Print all employee objects
         adjunct: Adjunct
         for adjunct in a_list:
-            print(adjunct.p1_due)
+            print(f"part 1 due date: {adjunct.p1_due}")
             _data = [adjunct.first_name, adjunct.last_name, adjunct.user_id,
                      adjunct.supervisor, adjunct.mentor, adjunct.program, adjunct.p1_due, 
                      adjunct.p2_due, adjunct.p3_due, adjunct.p4_due]

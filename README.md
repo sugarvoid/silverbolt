@@ -37,8 +37,21 @@ if not does_user_exist("123456789") then:
 
 #### `enroll_user(user_ID: str, course_id: str, role: str = "Student") -> None`
 [description]
+#### `enroll_users_from_csv(csv_path: str) -> None`
+[description]
+#### `copy_courses_from_csv(csv_path: str) -> None`
+[description]
+#### `create_empty_course(course_id: str, course_name: str) -> None:`
+[description]
+#### `copy_course(master_id: str, copy_id: str, forum_option: str) -> None`
+[description]
+#### `change_student_availability(student_id: str, course_id: str, available: str = "No")`
+[description]
+#### `get_user_courses(user_id: str) -> None:`
+Creates a cvs file with a list of courses where user is an instructor 
+#### `def get_users_in_course(course_id: str, role: str = "") -> list:`
+Returns a list of users based on their role
 
-$\color{ProcessBlue}{Test}$
 
 ## FVTC Specific
 
