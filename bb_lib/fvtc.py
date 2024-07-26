@@ -9,6 +9,21 @@ Author: David Durham
 
 License: MIT
 """
+
+FILE_PATH = "data/adjunct_list.txt"
+ADJUNCT_CSV = "data/adjunct_training.csv"
+PART_1_COURSE_ID = "ADJPART12020"
+PART_2_PARENT_ID = "AdjTrainingPART2D23"
+PART_2_CURRENT_CHILD_ID = "AdjTrainingPART2-2024"
+
+COURSE_ID = {
+    "ADJUNCT_PART_1" : "",
+
+}
+
+
+
+
 #TODO: Move separate script files here. 
 
 def add_users_to_adjunct_training(list_file_path: str) -> None:

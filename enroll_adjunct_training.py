@@ -13,7 +13,7 @@
     Mentor: Chris Cone
     Program: Human Relation
     Part 1: 8/15/2024
-    Part 2:  1/15/2025
+    Part 2: 1/15/2025
 
     Note: You may need to delete some text in the due dates, sometimes there are the word 'due date' in there.
 

@@ -228,7 +228,7 @@ def copy_courses_from_csv(csv_path: str):
                 copy_id=c["course_id"],
                 forum_option=c["forum_option"],
             )
-            sleep(5)
+            sleep(10)
             if c["forum_option"] == "a":
                 Logger.info(f"Removing old students from{c["course_id"]}")
                 remove_by_role(course_id=c["course_id"], role="Student")

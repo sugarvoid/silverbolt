@@ -6,11 +6,11 @@ from bb_lib.user import does_user_exist
 
 
 if __name__ == "__main__":
-    pass
+    #pass
     #print(does_user_exist("500162037"))
     #run_course_copy("data/course_copy.csv")
 
-    get_user_courses("200121789")
+    get_user_courses("120310548")
 
     # create_empty_course("10402113-2-2024fall", "Private Pilot 1A (Section 2)")
     # create_empty_course("10402113-3-2024fall", "Private Pilot 1A (Section 3)")
