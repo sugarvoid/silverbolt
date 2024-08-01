@@ -1,16 +1,30 @@
 
 
 import requests
-from bb_lib.course import run_course_copy, create_empty_course, get_user_courses
+from bb_lib.course import run_course_copy, create_empty_course, get_user_courses, delete_course, enroll_user
 from bb_lib.user import does_user_exist
+from bb_lib.fvtc import trent_enrollment
+
+
+course = [
+    "33768",
+"33771",
+"33772",
+"34956",
+"40016",
+"40015",
+]
 
 
 if __name__ == "__main__":
-    #pass
+    pass
     #print(does_user_exist("500162037"))
     #run_course_copy("data/course_copy.csv")
 
-    get_user_courses("120310548")
+    #get_user_courses("120250303")
+
+    #trent_enrollment(course_id="40551", add=False)
+
 
     # create_empty_course("10402113-2-2024fall", "Private Pilot 1A (Section 2)")
     # create_empty_course("10402113-3-2024fall", "Private Pilot 1A (Section 3)")

@@ -1,3 +1,6 @@
+
+from bb_lib.course import enroll_user, unenroll_user
+
 """
 This module provides functions specific to Fox Valley Technical College. 
 
@@ -57,3 +60,9 @@ def add_rest_to_course_copy_csv(csv_path: str) -> None:
     # save file
 
     pass
+
+def trent_enrollment(course_id: str, add: bool = True) -> None:
+    if add:
+        enroll_user(user_ID="200183336", course_id=course_id, role="Instructor")
+    else:
+        unenroll_user(user_id="200183336", course_id=course_id)

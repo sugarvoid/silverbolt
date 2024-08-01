@@ -26,24 +26,43 @@ if not does_user_exist("123456789") then:
 # Current Capabilities  
 
 ## User
-### `create_user(username: str, f_name: str, l_name:str, email: str) -> None`
+ ```python
+ # Creates a user
+create_user(username: str, f_name: str, l_name:str, email: str) -> None
+```
+Creates a user
+
+```python
+delete_user(username: str) -> int
+```
 [description]
-### `delete_user(username: str) -> int`
-[description]
-### `does_user_exist(username: str) -> bool`
+
+```python
+does_user_exist(username: str) -> bool
+```
 [description]
 
 ## Course<hr>
 
-#### `enroll_user(user_ID: str, course_id: str, role: str = "Student") -> None`
+```python
+enroll_user(user_ID: str, course_id: str, role: str = "Student") -> None
+```
 [description]
-#### `enroll_users_from_csv(csv_path: str) -> None`
+```python
+enroll_users_from_csv(csv_path: str) -> None
+```
 [description]
-#### `copy_courses_from_csv(csv_path: str) -> None`
+```python
+copy_courses_from_csv(csv_path: str) -> None
+```
 [description]
-#### `create_empty_course(course_id: str, course_name: str) -> None:`
+```python
+create_empty_course(course_id: str, course_name: str) -> None:
+```
 [description]
-#### `copy_course(master_id: str, copy_id: str, forum_option: str) -> None`
+```python
+copy_course(master_id: str, copy_id: str, forum_option: str) -> None
+```
 [description]
 #### `change_student_availability(student_id: str, course_id: str, available: str = "No")`
 [description]
